@@ -1,0 +1,317 @@
+header
+{
+    background-color:rgb(29, 29, 90);
+    color: white;
+    font-size: 42px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 70px;
+    padding-bottom: 6px;
+}
+
+header p
+{
+    padding-top: 21px;
+    padding-bottom: 8px;
+}
+
+#picu1busin
+{
+    margin-left: 160px;
+    margin-top: -60px;
+}
+
+.contain
+{
+    width: 700px;
+    float: right;
+    margin-top: 20px;
+}
+
+#headin
+{
+    font-size: 28px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(41, 41, 99);
+}
+
+#sub
+{
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 56px;
+    color:rgb(69, 64, 64);
+}
+
+.imageee
+{
+    background-color:rgb(239, 243, 242);
+}
+
+#picu2busin
+{
+    margin-top: 50px;
+    margin-left: 239px;
+    margin-bottom: 50px;
+    width: 1000px;
+    height: 420px;
+}
+
+.wrap
+{
+    margin-top: 30px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+#headinggg
+{
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(79, 79, 101);
+    margin-left: 65px;
+}
+
+.detail
+{
+    margin-left: 69px;
+    width: 558px;
+    height: 36px;
+    margin-bottom: 23px;
+    border: none;
+}
+
+.detail:focus
+{
+    background-color:rgb(205, 223, 223);
+    border: none;
+}
+
+#mes
+{
+    margin-left: 69px;
+    border: none;
+}
+
+#mes:focus
+{
+    background-color:rgb(205, 223, 223);
+    border-style: none;
+}
+
+#businbtn
+{
+    margin-left: 69px;
+    margin-top: 20px;
+    width: 1212px;
+    height: 39px;
+    border-radius: 5px;
+    font-size: 17px;
+    color:white;
+    background-color:rgb(43, 43, 105);
+}
+
+#tech
+{
+    margin-left: 50px;
+    margin-top: 110px;
+    font-size: 22px;
+}
+
+.slider2
+{
+    margin-top: 60px;
+    margin-left: 75px;
+    width:1350px;
+    height: 120px;
+}
+
+.slides2
+{
+    display: flex;
+}
+
+.slides2 input
+{
+    display:none;
+}
+
+.slide2
+{
+    width: 130%;
+    transition: 2s;
+}
+
+.slide2 img
+{
+    width: 1350px;
+    height: 120px ;
+}
+
+.manualnavi2
+{
+    position: absolute;
+    width: 1250px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.manualbtnbtn
+{
+    border: 2px solid rgb(129, 106, 106) ;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manualbtnbtn:not(:last-child)
+{
+    margin-right: 12px;
+}
+
+.manualbtnbtn:hover
+{
+    background-color:rgb(69, 64, 64);
+}
+
+#radio11:checked ~.first1
+{
+    margin-left: 0%;
+}
+
+#radio12:checked ~.second2
+{
+    margin-left: -105%;
+}
+
+.autonavi2
+{
+    position: absolute;
+    width: 1250px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.autonavi2 div
+{
+    border: 2px solid rgb(129, 106, 106);
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.autonavi2 div:not(:last-child)
+{
+    margin-right: 12px;
+}
+
+#radio11:checked ~.autonavi2 .autobtnbtn1
+{
+    background-color: rgb(69, 64, 64);
+}
+
+#radio12:checked ~.autonavi2 .autobtnbtn2
+{
+    background-color: rgb(69, 64, 64);
+}
+
+.flexcontainer2
+{
+    display: flex;
+    padding-top: 55px;
+}
+
+.flexitem2
+{
+    margin-top: 5px;
+    margin-left: 90px;
+    margin-right: 60px;
+    height: 500px;
+    width: 180px;
+}
+
+.flexitem2 #logo
+{
+    width: 126px;
+    height:50px;
+    padding-left: 8px;
+}
+
+.flexcontent2
+{
+    margin-top: 20px;
+}
+
+.flexitem2 a
+{
+    margin-top: 25px;
+    text-decoration: none;
+    color: rgb(92, 91, 91);
+    font-size: 18px;
+}
+
+.flexitem2 a:hover
+{
+    color: red;
+}
+
+.flexitem2 p
+{
+    color: rgb(92, 91, 91);
+    font-size: 18px;
+}
+
+.flexitem2 p:hover
+{
+    color: red;
+}
+
+.flexcontent2 .hh2
+{
+    font-size: 22px;
+    color: rgb(69, 65, 65);
+    margin-top: 55px;
+}
+
+.flexcontent2 .inp
+{
+    width: 150px;
+    height: 30px;
+    border-color:rgb(140, 135, 135);
+    border-radius: 3px;
+    margin-right: 1px;
+    border-style: none;
+}
+
+.flexcontent2 #inp2
+{
+    margin-top: 10px;
+    border-color:rgb(168, 164, 164);
+    border-radius: 3px;
+    border-style:none;
+}
+
+.flexcontent2 #btbutton
+{
+    width: 320px;
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(26, 26, 97);
+    color: rgb(236, 229, 229);
+    font-size: 17px;
+}
+
+.foot
+{
+    background-color: rgb(26, 26, 97);
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-sizing:border-box;
+    font-size: 19px;
+}

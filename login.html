@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 align="center">WELCOME BACK!</h1>
+            <form class="log-form" action="home.html" method="post" name="form" onsubmit="return validated()">
+                <label for="email-id" >Email or Phone Number</label>
+                <br>
+                <input id="email-id" autocomplete="off" name="ema" type="text" placeholder="Enter email-id or phone number">                
+                <div id="em-err">Please fill your email-id or phone number</div>
+                <br>
+                <br>
+                <label for="pwd">Password</label>
+                <br>
+                <input id="pwd" name="pwd" type="password" placeholder="Enter your password here">
+                <div id="pass-err">Please fill your password</div>
+                <br>
+                <br>
+                <button id="login-btn">LOGIN</button>
+            </form>
+        </div>
+    <script src="validlogin.js"></script>
+    </body>
+</html>

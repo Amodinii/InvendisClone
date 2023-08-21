@@ -1,0 +1,75 @@
+body
+{
+    background-image: url("backgr.jpg") ;
+    background-size: cover;
+    box-sizing :border-box; 
+}
+
+.container
+{
+    position: relative;
+    margin-top: 200px ;
+    margin-left: 540px;
+    padding-top: 6px;
+    padding-bottom: 30px;
+    width: 450px;
+    height: auto ;
+    background-color: rgb(165, 213, 230) ;
+    border-radius: 8px ;
+}
+
+h1
+{
+    font-family:'Courier New', Courier, monospace;
+    font-style:italic ;
+    color:rgb(5, 35, 128) ;
+}
+
+.log-form
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 77px;
+    font-size:20px;
+    font-weight:bold ;
+}
+
+button
+{
+    color:white ;
+    font-family:'Courier New', Courier, monospace;
+    font-size:24px;
+    background-color: rgb(5, 35, 128);
+    margin-left: 96px;
+    height: 40px;
+    width:90px;
+    border-radius: 5px;
+}
+
+#email-id
+{
+    width: 300px;
+    height: 35px;
+    border:none;
+}
+
+#pwd
+{
+    width: 300px;
+    height: 35px;
+    border:none; 
+}
+
+.log-form #em-err ,
+.log-form #pass-err
+{
+    margin-top: 5px;
+    width: 300px;
+    font-size: 15px;
+    color:rgb(206, 21, 21);
+    background-color:rgba(230, 166, 166, 0.956);
+    text-align: center ;
+    padding: 5px 3px;
+    border-radius:3px;
+    border: 1px solid #EF9A9A;
+    display:none;
+}
