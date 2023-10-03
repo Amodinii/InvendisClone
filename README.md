@@ -17,6 +17,6 @@ Welcome to the Invendis Clone Login Page project! This is a beautifully designed
 
 **Explore the live demo**: 
 
-![Login Page Screenshot](logininv.png)
+![Login Page Screenshot](logininven.png)
 
 Feel free to explore the code and design. Your feedback and contributions are always welcome as we continue to refine and improve this project.
